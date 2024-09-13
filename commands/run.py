@@ -11,8 +11,11 @@ import os
 
 def run():
     '''Configuration settings'''
-    with open('config/config.json', 'r') as file:
-        config=json.load(file)
+    try:
+        with open('config/config.json', 'r') as file:
+            config=json.load(file)
+    except:
+        config={}
     try:
         BANNEDIPS=set(config["BannedIP"])
     except:

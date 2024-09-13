@@ -45,6 +45,7 @@ That said, I plan on releasing a **Windows** version of this project soon.
 ## Usage
 
 1. Run the `cli-firewall.py` file using
+
     ```bash
     python3 cli-firewall.py
     ```
@@ -63,7 +64,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE]() file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/barondebajit/cli-firewall/blob/main/LICENSE.md) file for details.
 
 ## Disclaimer
 
