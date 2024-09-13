@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 from rich import print as rprint
 
@@ -20,7 +21,7 @@ def setconfig():
                     config={}
             else:
                 rprint("[blue]Exiting.[blue]")
-                exit(0)
+                sys.exit(0)
         else:
             rprint("[red]Config file not found. Creating new configuration settings.[red]")
             config={}
