@@ -1,14 +1,18 @@
 import typer
 from rich import print as rprint
-import commands
 import commands.setconfig
 
-app=typer.Typer()
+app = typer.Typer()
 
-@app.command("help",help="View usage")
-def help():
-    rprint("[blue]Commands:[blue]")
+@app.command("help")
+def show_help():
+    rprint("[blue]Available Commands:[/blue]")
+    rprint("  help          - Show help message")
+    rprint("  setconfig     - Run the setconfig command")
 
-@app.command("setconfig",help="Set configuration settings")
-def help():
-    commands.setconfig()
+@app.command("setconfig")
+def run_setconfig():
+    commands.setconfig.setconfig()
+
+if __name__ == "__main__":
+    app()
