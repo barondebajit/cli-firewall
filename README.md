@@ -33,8 +33,9 @@ That said, I plan on releasing a **Windows** version of this project soon.
 
 2. Create a virtual environment (optional but recommended):
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate
+   pip install virtualenv
+   virtualenv .
+   Scripts/activate
    ```
 
 3. Simply run the makefile as follows:
