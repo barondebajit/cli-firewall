@@ -1,6 +1,6 @@
 # Python Network Firewall
 
-A simple yet powerful network firewall implemented in Python, capable of filtering incoming and outgoing network traffic based on IP addresses and ports.
+A simple yet powerful network firewall implemented in Python, capable of filtering incoming and outgoing network traffic based on IPv4 addresses and ports.
 
 ## Features
 
